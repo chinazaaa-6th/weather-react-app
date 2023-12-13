@@ -1,6 +1,9 @@
 .Weather {
-  color: white;
-  border: 1px solid rgb(67, 67, 67);
+  color: rgb(172, 162, 162);
+  border: 1px solid rgb(107, 105, 105);
+  font-family: "Oxygen";
+  font-style: italic;
+  padding: 15px;
 }
 .first {
   text-align: left;
@@ -11,4 +14,25 @@
 }
 .part {
   font-size: 30px;
+}
+li {
+  font-weight: 100;
+  line-height: 15px;
+  list-style: none;
+}
+.temp {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  line-height: 60px;
+  font-weight: 400;
+}
+.unit {
+  color: rgb(127, 88, 88);
+  font-size: 15px;
+  font-weight: 200;
+  position: relative;
+  line-height: 1;
+  top: -30px;
+  margin-left: 5px;
 }

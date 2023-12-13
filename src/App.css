@@ -5,3 +5,15 @@
 .head {
   margin: 30px;
 }
+.form-part {
+  background: rgb(60, 60, 60);
+  color: #282c34;
+}
+.form-second {
+  background: rgb(163, 154, 154);
+  color: #282c34;
+}
+.form-part:hover {
+  background: rgb(143, 127, 168);
+  color: #000000;
+}

@@ -4,7 +4,7 @@ export default function Weather() {
   return (
     <div className="Weather">
       <h4>
-        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-solid fa-location-dot noun"></i>
         Abuja, Nigeria
       </h4>
       <ul>
@@ -13,7 +13,9 @@ export default function Weather() {
       </ul>
       <div className="row mold">
         <div className="col-6">
-          <i class="fa-solid fa-cloud-sun part"></i> 8°C
+          <i class="fa-solid fa-cloud-sun part"></i>{" "}
+          <span className="temp">8</span>
+          <small className="unit">°C</small>
         </div>
         <div className="col-6">
           <ul>

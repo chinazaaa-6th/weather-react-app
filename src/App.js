@@ -9,12 +9,14 @@ export default function App() {
         <h2 id="greett">Good Morning, User</h2>
         <div className="row head">
           <div className="col-6">
-            <input
-              type="search"
-              placeholder="Enter a city..."
-              className="form-part"
-            />
-            <input type="submit" value="Search" className="form-second" />
+            <form>
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                className="form-part"
+              />
+              <input type="submit" value="Search" className="form-second" />
+            </form>
           </div>
         </div>
         <Weather />
