@@ -14,6 +14,13 @@
   color: #282c34;
 }
 .form-part:hover {
-  background: rgb(143, 127, 168);
+  background: rgb(52, 43, 68);
   color: #000000;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(248, 220, 194);
 }

@@ -5,11 +5,13 @@
   font-style: italic;
   padding: 15px;
 }
+.noun {
+  text-align: left;
+}
 .first {
   text-align: left;
 }
 .mold {
-  margin: 30px;
   text-align: left;
 }
 .part {
@@ -23,16 +25,13 @@ li {
 .temp {
   font-size: 60px;
   font-weight: bold;
-  color: black;
-  line-height: 60px;
-  font-weight: 400;
+  color: rgb(172, 162, 162);
 }
 .unit {
-  color: rgb(127, 88, 88);
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 200;
   position: relative;
   line-height: 1;
   top: -30px;
-  margin-left: 5px;
+  margin-left: 0;
 }

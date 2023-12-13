@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h2 id="greett">Good Morning, User</h2>
+        <h2 id="greett">Good Day, User</h2>
         <div className="row head">
           <div className="col-6">
             <form>
@@ -19,14 +19,22 @@ export default function App() {
             </form>
           </div>
         </div>
-        <Weather />
+        <Weather city="Abuja, Nigeria" />
         <p>
           This project was created by{" "}
-          <a href="https://mellifluous-churros-9d41ce.netlify.app">
+          <a
+            href="https://mellifluous-churros-9d41ce.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Chinaza Nnadi
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/chinazaaa-6th/weather-react-app">
+          <a
+            href="https://github.com/chinazaaa-6th/weather-react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Open-sourced
           </a>
         </p>
