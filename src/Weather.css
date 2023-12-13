@@ -1,0 +1,14 @@
+.Weather {
+  color: white;
+  border: 1px solid rgb(67, 67, 67);
+}
+.first {
+  text-align: left;
+}
+.mold {
+  margin: 30px;
+  text-align: left;
+}
+.part {
+  font-size: 30px;
+}
