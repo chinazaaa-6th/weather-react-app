@@ -35,3 +35,10 @@ li {
   top: -30px;
   margin-left: 0;
 }
+.form-part:hover {
+  background: rgb(187, 177, 205);
+  color: #000000;
+}
+form {
+  text-align: left;
+}

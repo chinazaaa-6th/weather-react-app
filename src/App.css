@@ -2,21 +2,6 @@
   text-align: center;
   background-color: #282c34;
 }
-.head {
-  margin: 30px;
-}
-.form-part {
-  background: rgb(60, 60, 60);
-  color: #282c34;
-}
-.form-second {
-  background: rgb(163, 154, 154);
-  color: #282c34;
-}
-.form-part:hover {
-  background: rgb(52, 43, 68);
-  color: #000000;
-}
 a {
   text-decoration: none;
   color: white;

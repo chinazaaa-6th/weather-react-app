@@ -7,18 +7,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h2 id="greett">Good Day, User</h2>
-        <div className="row head">
-          <div className="col-6">
-            <form>
-              <input
-                type="search"
-                placeholder="Enter a city..."
-                className="form-part"
-              />
-              <input type="submit" value="Search" className="form-second" />
-            </form>
-          </div>
-        </div>
         <Weather city="Abuja, Nigeria" />
         <p>
           This project was created by{" "}
