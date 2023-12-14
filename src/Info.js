@@ -21,7 +21,6 @@ export default function Info(props) {
         </div>
         <div className="col-6">
           <ul>
-            <li>Precipitaton: 16%</li>
             <li>Humidity: {Math.round(props.data.humid)}%</li>
             <li>Wind: {Math.round(props.data.wind)}km/hr</li>
           </ul>
