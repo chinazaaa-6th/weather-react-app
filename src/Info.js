@@ -1,6 +1,6 @@
 import React from "react";
-import TheDate from "./TheDate";
 import Temp from "./Temp.js";
+import TheDate from "./TheDate";
 export default function Info(props) {
   return (
     <div className="Info">

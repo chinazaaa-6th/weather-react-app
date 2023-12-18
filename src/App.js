@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import Forecast from "./Forecast";
 import "./App.css";
 
 export default function App() {
@@ -9,7 +8,6 @@ export default function App() {
       <div className="container">
         <h2 id="greett">Good Day, User</h2>
         <Weather city="Abuja, Nigeria" />
-        <Forecast />
         <p>
           This project was created by{" "}
           <a

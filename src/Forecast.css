@@ -1,0 +1,11 @@
+.icon {
+  max-width: 50%;
+  max-height: 40%;
+}
+.temper-max {
+  margin-right: 5px;
+  font-weight: 400;
+}
+.temper-min {
+  opacity: 0.5;
+}
