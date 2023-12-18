@@ -15,9 +15,13 @@ export default function Forecast(props) {
     return (
       <div className="Forecast">
         <div className="row">
-          <div className="col">
-            <Day daily={future[0]} />
-          </div>
+          {future.map(function (dailyForcast, index) {
+            return (
+              <div className="col-md" key={index}>
+                <Day daily={dailyForcast} />
+              </div>
+            );
+          })}
         </div>
       </div>
     );
