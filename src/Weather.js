@@ -56,12 +56,12 @@ export default function Weather(props) {
             </div>
           </form>
           <Info data={weather} />
-          <Forecast part={weather} />
+          <Forecast part={weather} second={cityy} />
         </div>
       </div>
     );
   } else {
     search();
-    return "Loading...";
+    return "Loading page, Please wait...";
   }
 }

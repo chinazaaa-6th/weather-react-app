@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h2 id="greett">Good Day, User</h2>
         <Weather city="Abuja, Nigeria" />
         <p>
           This project was created by{" "}
